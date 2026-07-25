@@ -1,0 +1,21 @@
+Brand: Toyota
+Model: -Supra
+Colour: Black
+Fuel Level: High
+Engine On: true
+Speed: 90
+Wheel: RWD
+Engine is started.
+Car is moving.
+Toyota-Supra can drift
+
+Brand: Toyota
+Model: -Corolla
+Colour: White
+Fuel Level: Low
+Engine On: false
+Speed: 0
+Wheel: FWD
+Engine is off.
+Car is moving.
+Toyota-Corolla can not drift

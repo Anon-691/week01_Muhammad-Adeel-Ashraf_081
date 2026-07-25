@@ -1,0 +1,35 @@
+Enter first number
+2
+Enter second number
+3
+Model   :fx-991es plus
+Colour  :silver
+Type    :scientific
+StateOn :true
+Num1    :2.0
+Num2    :3.0
+5.0
+-1.0
+0.6666666666666666
+6.0
+2.0
+8.0
+
+Model   :CX-123N
+Colour  :black
+Type    :scientific
+StateOn :false
+Num1    :2.0
+Num2    :3.0
+Please turn on the calculator first
+0.0
+Please turn on the calculator first
+0.0
+Please turn on the calculator first
+0.0
+Please turn on the calculator first
+0.0
+Please turn on the calculator first
+0.0
+Please turn on the calculator first
+0.0
