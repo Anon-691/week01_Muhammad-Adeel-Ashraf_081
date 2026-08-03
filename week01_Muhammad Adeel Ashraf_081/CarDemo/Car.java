@@ -55,23 +55,27 @@ public class Car {
 
     // Methods/behaviours
     public void startEngine() {
-        if (this.stateOn) {
+        if (!this.stateOn) {
+            this.stateOn=true;
             System.out.println("Engine is started.");
         } else {
-            System.out.println("Engine is off.");
+            System.out.println("Engine is already on.");
         }
     }
 
     public void stopEngine() {
-        if (this.speed == 0 && this.stateOn==true) {
+        if (this.stateOn && this.speed == 0) {
+            this.stateOn = false; 
             System.out.println("Engine is stopped.");
+        } else if (this.speed != 0) {
+            System.out.println("Car is moving. Cannot stop the engine.");
         } else {
-            System.out.println("Car is moving.");
+            System.out.println("Engine is already off.");
         }
     }
 
     public void drift() {
-        if (this.speed >= 50 && this.wheel.equals("RWD")) {
+        if (this.stateOn && this.speed >= 50 && this.wheel.equals("RWD")) {
             System.out.println(this.brand + this.model +" can drift");
         } else {
             System.out.println(this.brand + this.model +" can not drift");
